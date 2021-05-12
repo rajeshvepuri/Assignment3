@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+#logo{
+    width: 100%;
+    height: 65px;
+
+}
+.menu{
+    padding-top: 20px;
+    word-spacing: 30px;
+}
+a{
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #5243C0;
+    text-decoration-thickness: 3px;
+}
+#account{
+    padding: 20px;
+    border-radius: 56px;
+    background-color: #FFD8DB;
+    color: #5243C0;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#fullstop{
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: blueviolet;
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.middle-left-section{
+    width: 35%;
+}
+.para{
+    font-size: 12px;
+}
+.new-account{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#new-account{
+    padding: 20px;
+    background-color: #5243C0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    border: none;
+    margin-right: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+#arrow{
+    margin-right: 10px;
+}
+.bottom-left-section{
+    display: flex;
+    flex-direction: column;
+}
+.border{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+#bottom-left{
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+#bottom-left:hover{
+    background-color: white;
+}
+#pinkb{
+    background-color: #FFD8DB;
+    height: 10px;
+    border: none;
+    width: 20px;
+    border-radius: 56px;
+}
+#orangeb{
+    background-color: #FE815A;
+    height: 10px;
+    border: none;
+    width: 20px;
+    border-radius: 56px;
+}
+#blueb{
+    background-color: #9DCF95;
+    height: 10px;
+    border: none;
+    width: 20px;
+    border-radius: 56px;
+}
+#redb{
+    background-color: #FFE3A0;
+    height: 10px;
+    border: none;
+    width: 20px;
+    border-radius: 56px;
+}
+#right{
+    height: 80%;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
